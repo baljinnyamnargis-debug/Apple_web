@@ -1,10 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 .nav_bar {
-  width: 1920px;
+  /* width: 1920px; */
   height: 44px;
   display: flex;
   justify-content: center;
@@ -33,4 +36,636 @@
   font-weight: 400;
   line-height: 60px; /* 500% */
   letter-spacing: -0.28px;
+}
+.we_are_donating {
+  padding: 16px;
+  text-align: center;
+  background: #fff;
+}
+.we_are_donating p {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.iPhone_1 {
+  background: url("Figure.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 1920px; */
+  height: 692px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 81px 0 439px 0;
+  gap: 20px;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head {
+  color: #f5f5f7;
+  font-family: Inter;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px; /* 115.385% */
+  letter-spacing: -0.28px;
+}
+.hello {
+  color: #f5f5f7;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+}
+.button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.button p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 10px;
+}
+.learn {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.374px;
+}
+.button1 {
+  width: 123px;
+  height: 44px;
+  border-radius: 999px;
+  background: #0071e3;
+}
+.buy {
+  color: #2997ff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.374px;
+}
+.button2 {
+  width: 68px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid #2997ff;
+}
+.iPhone_2 {
+  background: url("Figure (2).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 1920px; */
+  height: 692px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 81px 0 439px 0;
+  gap: 20px;
+}
+.heading2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.head2 {
+  color: #f5f5f7;
+  font-family: Inter;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px; /* 115.385% */
+  letter-spacing: -0.28px;
+}
+.hello2 {
+  color: #f5f5f7;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+}
+.button_2 {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.button_2 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 10px;
+}
+.button_2 .button1 {
+  width: 123px;
+  height: 44px;
+  border-radius: 999px;
+  background: #fff;
+}
+.learn_more {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.374px;
+}
+.button3 .button2 {
+  width: 68px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid #fff;
+}
+.buy_1 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.374px;
+}
+.rainbow_apple {
+  background: url("Figure (3).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 1920px; */
+  height: 692px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  /* padding: 81px 0 439px 0; */
+  gap: 20px;
+  padding-bottom: 50px;
+}
+.heading3 {
+  display: flex;
+  width: 405px;
+  flex-direction: column;
+  align-items: center;
+}
+.button4 {
+  width: 123px;
+  height: 44px;
+  border-radius: 999px;
+  background: #0071e3;
+}
+.head3 {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px; /* 115.385% */
+  letter-spacing: -0.28px;
+}
+.make {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+}
+.shop_button {
+}
+.gift {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.374px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 10px;
+}
+.section4 {
+  width: 100%;
+  height: 1764px;
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 12px;
+  align-self: stretch;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box_1 {
+  background-image: url("Figure (4).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 49%;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.section4 .heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+.heading .ipad {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px; /* 115.385% */
+  letter-spacing: -0.28px;
+}
+.box_1 .hello {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
+  width: 322px;
+}
+.intelligence {
+}
+.intelligence p {
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 128.571% */
+  background: linear-gradient(
+    90deg,
+    #0090f7 0%,
+    #ba62fc 33.33%,
+    #f2416b 66.67%,
+    #f55600 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 350px;
+}
+.box_2 {
+  background-image: url("Figure (5).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 49%;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.title {
+  margin-top: 400px;
+}
+.air {
+  color: #f5f5f7;
+  text-align: center;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px; /* 122.222% */
+}
+.now {
+  color: #f5f5f7;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
+}
+.Air_button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.air_button_1 {
+  width: 123px;
+  height: 44px;
+  border-radius: 999px;
+  background: #0071e3;
+}
+.air_button_2 {
+  width: 68px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid #2997ff;
+}
+.Air_button p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 10px;
+}
+
+.box_3 {
+  background-image: url("Figure (6).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 49%;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:;
+}
+.apple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 50px;
+}
+.icon11 {
+  width: 26.353px;
+  height: 32px;
+}
+.apple p {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.series {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.thin {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
+  margin-top: 5px;
+}
+.apple_button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+.apple_button_1 {
+  width: 123px;
+  height: 44px;
+  border-radius: 999px;
+  background: #0071e3;
+}
+.apple_button_2 {
+  width: 68px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid #2997ff;
+}
+.apple_button_1 p {
+  color: white;
+}
+.apple_button_2 p {
+  color: #2997ff;
+}
+.apple_button p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 10px;
+}
+
+.box_4 {
+  background-image: url("Figure (7).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 49%;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 20px;
+}
+.mac {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px; /* 122.222% */
+  margin-top: 50px;
+}
+.mac1 {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
+}
+.mac_button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.mac_button_1 {
+  width: 123px;
+  height: 44px;
+  border-radius: 999px;
+  background: #0071e3;
+}
+.mac_button_2 {
+  width: 68px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid #2997ff;
+}
+.mac_button_1 p {
+  color: white;
+}
+.mac_button_2 p {
+  color: #2997ff;
+}
+.mac_button p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 10px;
+}
+
+.box_5 {
+  background-image: url("Figure (8).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 49%;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.apple_trade {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 50px;
+}
+.icon22 {
+  width: 26px;
+  height: 32px;
+}
+.apple_trade p {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.get_money {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.get_money p {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
+}
+.trade_button {
+  width: 167px;
+  height: 40px;
+  border-radius: 999px;
+  background: #0071e3;
+  display: flex;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.box_6 {
+  background-image: url("Figure (9).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 49%;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.apple_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 50px;
+}
+.apple_card p {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.get-up p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
+}
+.card_button {
+  display: flex;
+  gap: 16px;
+}
+.card_button_1 {
+  width: 144px;
+  height: 44px;
+  border-radius: 999px;
+  background: #0071e3;
+}
+.card_button_1 p {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+}
+.card_button_2 {
+  width: 123px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid #0071e3;
+  color: #0071e3;
+}
+.card_button p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 10px;
 }
