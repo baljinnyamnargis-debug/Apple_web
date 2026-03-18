@@ -60,6 +60,7 @@
   align-items: center;
   padding: 81px 0 439px 0;
   gap: 20px;
+  margin-bottom: 12px;
 }
 .heading {
   display: flex;
@@ -140,6 +141,7 @@
   align-items: center;
   padding: 81px 0 439px 0;
   gap: 20px;
+  margin-bottom: 12px;
 }
 .heading2 {
   display: flex;
@@ -220,6 +222,7 @@
   /* padding: 81px 0 439px 0; */
   gap: 20px;
   padding-bottom: 50px;
+  margin-bottom: 12px;
 }
 .heading3 {
   display: flex;
@@ -279,6 +282,7 @@
   align-self: stretch;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 12px;
 }
 .box_1 {
   background-image: url("Figure (4).png");
@@ -668,4 +672,247 @@
   align-items: center;
   padding: 12px 20px;
   gap: 10px;
+}
+.scrolls {
+  width: 100%;
+  height: 668px;
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+}
+.scroll_item_1 {
+  min-width: 1250px;
+  height: 668px;
+  background-image: url("bad-monkey.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-snap-align: center;
+}
+.info {
+  display: flex;
+  align-items: end;
+  padding: 70px 50px;
+}
+.button {
+  width: 133px;
+  height: 44px;
+  border-radius: 999px;
+  background: #f5f5f7;
+}
+.button p {
+  color: #000;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 117.647% */
+  letter-spacing: -0.374px;
+}
+.film_name p {
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 117.647% */
+}
+.scroll_item_2 {
+  min-width: 1250px;
+  height: 668px;
+  background-image: url("baseball.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-snap-align: center;
+}
+.scroll_item_3 {
+  min-width: 1250px;
+  height: 668px;
+  background-image: url("instigators.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-snap-align: center;
+}
+.scroll_item_4 {
+  min-width: 1250px;
+  height: 668px;
+  background-image: url("k-pop-idols.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-snap-align: center;
+}
+.scroll_item_5 {
+  min-width: 1250px;
+  height: 668px;
+  background-image: url("lady-in-the-lake.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-snap-align: center;
+}
+.scroll_item_6 {
+  min-width: 1250px;
+  height: 668px;
+  background-image: url("morning-show.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-snap-align: center;
+}
+.scroll_item_7 {
+  min-width: 1250px;
+  height: 668px;
+  background-image: url("napoleon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-snap-align: center;
+}
+.scroll_item_8 {
+  min-width: 1250px;
+  height: 668px;
+  background-image: url("pachinko.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-snap-align: center;
+}
+.scroll_item_9 {
+  min-width: 1250px;
+  height: 668px;
+  background-image: url("pressumed-innocent.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-snap-align: center;
+}
+.scroll_item_10 {
+  min-width: 1250px;
+  height: 668px;
+  background-image: url("season-pass.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-snap-align: center;
+}
+.items {
+  width: 100%;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+}
+.item_1_dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background: darkgrey;
+}
+#item_1 {
+  background-image: url("bad-monkey.jpg");
+}
+#item_2 {
+  background-image: url("baseball.jpg");
+}
+#item_3 {
+  background-image: url("instigators.jpg");
+}
+#item_4 {
+  background-image: url("k-pop-idols.jpg");
+}
+#item_5 {
+  background-image: url("lady-in-the-lake.jpg");
+}
+#item_6 {
+  background-image: url("morning-show.jpg");
+}
+#item_7 {
+  background-image: url("napoleon.jpg");
+}
+#item_8 {
+  background-image: url("pachinko.jpg");
+}
+#item_9 {
+  background-image: url("pressumed-innocent.jpg");
+}
+#item_10 {
+  background-image: url("season-pass.jpg");
+}
+
+.slider {
+  width: 100%;
+  height: 292px;
+  display: flex;
+  column-gap: 16px;
+  scroll-behavior: none;
+  overflow: hidden;
+}
+.slider_item_1 {
+  min-width: 417px;
+  height: 236px;
+  background-image: url("1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slider_item_2 {
+  min-width: 417px;
+  height: 236px;
+  background-image: url("2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slider_item_3 {
+  min-width: 417px;
+  height: 236px;
+  background-image: url("3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slider_item_4 {
+  min-width: 417px;
+  height: 236px;
+  background-image: url("4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slider_item_5 {
+  min-width: 417px;
+  height: 236px;
+  background-image: url("5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slider_item_6 {
+  min-width: 417px;
+  height: 236px;
+  background-image: url("6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slider_item_7 {
+  min-width: 417px;
+  height: 236px;
+  background-image: url("7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slider_item_8 {
+  min-width: 417px;
+  height: 236px;
+  background-image: url("8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slider_item_9 {
+  min-width: 417px;
+  height: 236px;
+  background-image: url("9.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slider_item_10 {
+  min-width: 417px;
+  height: 236px;
+  background-image: url("10.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
