@@ -1252,7 +1252,7 @@ div {
 }
 
 @media (max-width: 768px) {
-  .nav_bar p {
+  .nav_bar a {
     display: none;
   }
   .menu_icon {
