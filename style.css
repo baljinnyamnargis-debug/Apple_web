@@ -37,8 +37,15 @@
   line-height: 60px; /* 500% */
   letter-spacing: -0.28px;
 }
+div {
+  display: flex;
+  gap: 24px;
+}
 .we_are_donating {
   padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   background: #fff;
 }
@@ -56,6 +63,7 @@
   position: relative;
   display: flex;
   justify-content: center;
+  margin-bottom: 12px;
 }
 
 .figure_img {
@@ -1239,6 +1247,7 @@
 .menu_icon {
   width: 18px;
   height: 18px;
+  margin-top: 12px;
   display: none;
 }
 
@@ -1343,7 +1352,11 @@
     width: 689px;
     height: 368px;
   }
+  .nav_bar {
+    justify-content: space-around;
+  }
 }
+
 .img_88 {
   display: none;
   background-repeat: no-repeat;
@@ -1385,6 +1398,9 @@
   }
   .iPhone .button_2 p {
     color: #fff;
+  }
+  .nav_bar {
+    justify-content: space-around;
   }
 }
 
